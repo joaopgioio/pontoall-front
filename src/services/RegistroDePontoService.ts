@@ -4,7 +4,7 @@ import IRegistroDePontoAgg, {
 } from "../models/IRegistroDePontoAgg";
 import IRegistroDePontoCreateDto from "../models/IRegistroDePontoCreateDto";
 
-const BASE_URL = "https://ponto-all-backend.herokuapp.com/api/v1/registros";
+const BASE_URL = "https://ponto-all.herokuapp.com/api/v1/registros";
 
 export function getRegistrosDePontoByProfessorId(idProfessor: number) {
   return axios.get<IRegistroDePontoAgg[]>(
