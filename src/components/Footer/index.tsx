@@ -25,6 +25,9 @@ export default function Footer() {
             <span>Tiago Vinicius Santos De Araujo, 2006755</span>
             <span>Rodrigo Tribiolli Moreira, 2009962</span>
             <span>Osvaldo Shuquichi Iochida, 2015214</span>
+            <span>Luciana de Souza Lucena, 2015533</span>
+            <span>Marisa da Silva Lemos, 2003931</span>
+            <span>João Paulo Patuci Alves, 1703700</span>
           </div>
         </Col> */}
         <Col md={3}>
