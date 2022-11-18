@@ -25,7 +25,7 @@ export default function AboutUs() {
           <p>Osvaldo Shuquichi Iochida, 2015214</p>
           <p>Luciana de Souza Lucena, 2015533</p>
           <p>Marisa da Silva Lemos, 2003931</p>
-          <p>João Paulo Patuci Alves Teste, 1703700</p>
+          <p>João Paulo Patuci Alves, 1703700</p>
         </section>
       </main>
     </Container>
