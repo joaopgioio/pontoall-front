@@ -26,15 +26,9 @@ export default function AboutUs() {
           <p>Luciana de Souza Lucena, 2015533</p>
           <p>Marisa da Silva Lemos, 2003931</p>
           <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
-          <p>João Paulo Patuci Alves, 1703700</p>
+          <p></p>
+          <p></p>
+          <p></p>
         </section>
       </main>
     </Container>
