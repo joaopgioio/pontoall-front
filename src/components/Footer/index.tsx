@@ -6,7 +6,7 @@ export default function Footer() {
       fluid
       as="footer"
       className="bg-dark text-white fixed-bottom fw-light"
-      style={{ height: "12vh" }}
+      style={{ height: "100" }}
     >
       <Row className="mt-4 mb-4 align-items-center small justify-content-space-between">
         <Col>
