@@ -16,7 +16,7 @@ export default function AboutUs() {
         </section>
         <section className="mt-4 lh-1">
           <h2>Quem somos?</h2>
-          <p>Sergio Aparecido Virgolino, 1402449</p>
+          <p>Teste - Sergio Aparecido Virgolino, 1402449</p>
           <p>Ezio Vicente De Paula, 2002118</p>
           <p>Simone Almeida Santos, 2004008</p>
           <p>Henrique Melo Kikuchi, 2005992</p>
