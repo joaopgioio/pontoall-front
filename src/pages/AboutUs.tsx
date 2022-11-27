@@ -16,7 +16,6 @@ export default function AboutUs() {
         </section>
         <section className="mt-4 lh-1">
           <h2>Quem somos?</h2>
-          <p>Teste, 000000</p>
           <p>Simone Almeida Santos, 2004008</p>
           <p>Henrique Melo Kikuchi, 2005992</p>
           <p>Tiago Vinicius Santos De Araujo, 2006755</p>
