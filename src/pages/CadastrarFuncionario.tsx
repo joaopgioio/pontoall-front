@@ -53,6 +53,7 @@ export default function CadastrarFuncionario() {
         <Form.Group className="mb-3">
           <Form.Control
             type="number"
+            min="1"
             placeholder="Matrícula"
             id="matricula"
             name="matricula"
