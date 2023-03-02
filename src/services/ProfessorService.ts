@@ -4,7 +4,7 @@ import IProfessorCreateDto from "../models/IProfessorCreateDto";
 import IProfessorEntity from "../models/IProfessorEntity";
 
 //const BASE_URL = "http://localhost:3000/api/v1/professores";
-const BASE_URL = "https://ponto-all.herokuapp.com/api/v1/professores";
+const BASE_URL = "https://registropontoall.azurewebsites.net/api/v1/professores";
 
 export function getProfessores() {
   return axios.get<Array<IProfessorEntity>>(BASE_URL);
