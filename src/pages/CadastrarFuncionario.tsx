@@ -80,6 +80,7 @@ export default function CadastrarFuncionario() {
             <option value="filosofia">Filosofia</option>
             <option value="geografia">Geografia</option>
             <option value="sociologia">Sociologia</option>
+            <option value="teologia">Teologia</option>
           </Form.Select>
         </Form.Group>
         <Form.Group className="mb-3">
