@@ -20,7 +20,7 @@ export default function Professores() {
       <Table striped bordered hover>
         <thead>
           <tr>
-            /*<th>id</th>/*
+            /*<th>id</th>*/
             <th>nome</th>
             <th>materia</th>
             <th>matricula</th>
@@ -32,7 +32,7 @@ export default function Professores() {
           {professorList.map((prof) => {
             return (
               <tr key={prof.id}>
-               /*<td>{prof.id}</td>/*
+               /*<td>{prof.id}</td>*/
                 <td>{prof.nome}</td>
                 <td>{prof.materia}</td>
                 <td>{prof.matricula}</td>
