@@ -21,11 +21,11 @@ export default function Professores() {
         <thead>
           <tr>
             {/*<th>id</th>*/}
-            <th>nome</th>
-            <th>materia</th>
-            <th>matricula</th>
-            <th>registros</th>
-            <th>opcoes</th>
+            <th>Nome</th>
+            <th>Matéria</th>
+            <th>Matrícula</th>
+            <th>Registros</th>
+            <th>Opções</th>
           </tr>
         </thead>
         <tbody>
