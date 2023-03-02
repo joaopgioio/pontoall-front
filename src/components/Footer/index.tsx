@@ -11,9 +11,9 @@ export default function Footer() {
       <Row className="mt-4 mb-4 align-items-center small justify-content-space-between">
         <Col>
           <div>
-            Aplicação Web apresentado na disciplina de Projeto Integrador III
+            Aplicação Web apresentado na disciplina de Projeto Integrador IV
             para o curso de Graduação - Eixo da Computação da Universidade
-            Virtual do Estado de São Paulo (UNIVESP). 2022
+            Virtual do Estado de São Paulo (UNIVESP). 2023
           </div>
         </Col>
         {/* <Col>
