@@ -12,7 +12,7 @@ export default function CadastrarFuncionario() {
   const formik = useFormik({
     initialValues: {
       nome: "",
-      materia: "portugues",
+      materia: "Português",
       matricula: "",
       password: "",
     },
@@ -46,6 +46,7 @@ export default function CadastrarFuncionario() {
             placeholder="Nome"
             id="nome"
             name="nome"
+            required
             onChange={formik.handleChange}
             value={formik.values.nome}
           ></Form.Control>
@@ -57,6 +58,7 @@ export default function CadastrarFuncionario() {
             placeholder="Matrícula"
             id="matricula"
             name="matricula"
+            required
             onChange={formik.handleChange}
             value={formik.values.matricula ?? ""}
           ></Form.Control>
@@ -66,21 +68,22 @@ export default function CadastrarFuncionario() {
             aria-label="Selecione a materia"
             id="materia"
             name="materia"
+            required
             onChange={formik.handleChange}
-            defaultValue={"portugues"}
+            defaultValue={"Português"}
           >
-            <option value="portugues">Português</option>
-            <option value="historia">História</option>
-            <option value="matematica">Matemática</option>
-            <option value="artes">Artes</option>
-            <option value="fisica">Física</option>
-            <option value="biologia">Biologia</option>
-            <option value="quimica">Química</option>
-            <option value="educacaofisica">Educação Física</option>
-            <option value="filosofia">Filosofia</option>
-            <option value="geografia">Geografia</option>
-            <option value="sociologia">Sociologia</option>
-            <option value="teologia">Teologia</option>
+            <option value="Português">Português</option>
+            <option value="História">História</option>
+            <option value="Matemática">Matemática</option>
+            <option value="Artes">Artes</option>
+            <option value="Física">Física</option>
+            <option value="Biologia">Biologia</option>
+            <option value="Química">Química</option>
+            <option value="Educação Física">Educação Física</option>
+            <option value="Filosofia">Filosofia</option>
+            <option value="Geografia">Geografia</option>
+            <option value="Sociologia">Sociologia</option>
+            <option value="Teologia">Teologia</option>
           </Form.Select>
         </Form.Group>
         <Form.Group className="mb-3">
@@ -89,6 +92,7 @@ export default function CadastrarFuncionario() {
             placeholder="Password"
             id="password"
             name="password"
+            required
             onChange={formik.handleChange}
             value={formik.values.password}
           ></Form.Control>

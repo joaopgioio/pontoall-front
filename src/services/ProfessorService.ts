@@ -3,7 +3,8 @@ import IProfessorCreateDto from "../models/IProfessorCreateDto";
 
 import IProfessorEntity from "../models/IProfessorEntity";
 
-//const BASE_URL = "http://localhost:3000/api/v1/professores";
+//const BASE_URL = "http://localhost:3000/api/v1/professores";localhost:8085
+//const BASE_URL = "http://localhost:8085/api/v1/professores";
 const BASE_URL = "https://registropontoall.azurewebsites.net/api/v1/professores";
 
 export function getProfessores() {
